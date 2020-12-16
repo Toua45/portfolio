@@ -1,0 +1,110 @@
+.experience {
+
+  .experienceContent {
+    min-height: $minHeight;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75% 25%;
+    grid-template-areas: "Experience Other" "Formation Formation";
+
+    h3 {
+      font-family: $font-2;
+      color: $color-4;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+      color: $color-5;
+      text-transform: uppercase;
+    }
+
+    h5 {
+      font-size: .8rem;
+      color: $color-3;
+    }
+
+    p {
+      font-size: 1rem;
+      text-align: justify;
+      color: $color-3;
+    }
+
+    .dev-exp {
+      grid-area: Experience;
+      background: $color-1;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      margin-bottom: .5rem;
+      margin-right: .5rem;
+    }
+
+    .other-exp {
+      grid-area: Other;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      background: $color-1;
+      margin-bottom: .5rem;
+    }
+
+    .formations {
+      grid-area: Formation;
+      padding: 0.5rem 1rem 0.5rem 1rem;
+      background: $color-1;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .experienceContent {
+    h3 {
+      font-size: 1.3rem !important;
+    }
+
+    h4 {
+      font-size: 1rem !important;
+    }
+
+    p {
+      font-size: .9rem !important;
+    }
+
+    .exp-1 {
+      grid-area: 1 !important;
+      display: grid !important;
+      grid-template-rows: 300px 400px !important;
+      grid-template-areas: "E" "O" !important;
+
+      .dev-exp {
+        grid-area: E;
+      }
+
+      .other-exp {
+        grid-area: O;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .experienceContent {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 300px 1fr 400px !important;
+
+    .dev-exp {
+      grid-area: 1 !important;
+      margin-right: 0 !important;
+    }
+
+    .other-exp {
+      grid-area: 2 !important;
+      padding-bottom: 2rem !important;
+    }
+
+    .formations {
+      grid-area: 3 !important;
+    }
+  }
+}

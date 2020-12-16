@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+$font-1: 'Nova Round', cursive;
+$font-2: 'Dosis', sans-serif;
+$font-3: 'Josefin Sans', serif;
+
+$color-1: #001524;
+$color-2: #12545f;
+$color-3: #fbfbff;
+$color-4: #ff6700;
+$color-5: #b03c17;
+$white: #ddd;
+$black: #333;
+
+$borderRadius: 15px;
+$shadow: 0 1px 3px $black;
+$minHeight: 100vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  font-family: $font-2;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+h4, h5 {
+  font-family: $font-2;
+}
+
+p{
+  font-family: $font-1;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color:$black;
+}
+
+.home, .skills, .portfolio, .contact, .experience {
+  display: flex;
+
+  @media screen and (max-width: 850px){
+    display: block !important;
+  }
+}
+
+.homeContent, .skillsContent, .portfolioContent, .contactContent, .experienceContent {
+  margin-left: .4rem;
+
+  @media screen and (max-width: 850px){
+    margin-left: 0 !important;
+  }
+}

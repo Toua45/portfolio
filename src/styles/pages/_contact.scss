@@ -1,0 +1,89 @@
+.contact {
+
+  .contactContent {
+    background: linear-gradient(120deg, $color-1 25%, transparent 100%);
+    min-height: $minHeight;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    @include verticalCenter;
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: inherit;
+      background: url('../../media/contact.jpg') no-repeat center/cover;
+      z-index: -1;
+    }
+
+    .contactBox {
+      position: absolute;
+
+      h1 {
+        font-family: $font-1;
+        font-size: 3rem;
+        padding-top: 5rem;
+        padding-left: 10rem;
+        transform: rotate(15deg);
+        color: $color-1;
+      }
+
+      ul {
+        font-family: $font-1;
+        font-size: 2rem;
+        padding-top: 5rem;
+        padding-left: 9rem;
+        transform: rotate(15deg);
+        color: $color-1;
+      }
+
+      svg {
+        margin-right: 1rem;
+        transform: translateY(3px);
+        color: $color-1;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 850px){
+  .contactContent {
+    margin: 0 !important;
+
+    &:after {
+      background: url('../../media/contact.jpg') no-repeat 60%/cover !important;
+    }
+
+    .contactBox {
+      h1 {
+        font-size: 2.3rem !important;
+        padding-left: 5rem !important;
+      }
+
+      ul {
+        font-size: 1.5rem !important;
+        padding-left: 3rem !important;
+      }
+    }
+  }
+}
+@media screen and (max-width:580px){
+  .contactContent {
+    background: linear-gradient(120deg, $color-1 18%, transparent 100%) !important;
+
+    .contactBox {
+      h1 {
+        font-size: 2rem !important;
+        padding-left: 5rem !important;
+      }
+
+      ul {
+        font-size: 1.3rem !important;
+        padding-top: 3rem !important;
+        padding-left: 3rem !important;
+      }
+    }
+  }
+}
