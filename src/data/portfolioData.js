@@ -21,7 +21,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : PHP 7.2 / Symfony 4.4.3 / Doctrine 2 / Twig / HTML 5 / CSS-SCSS / Bootstrap 4 / Uikit / Javascript / MySQL.',
         features: 'Développement de fonctionnalités : identification, téléchargement de fichier format pdf, carte interactive, chatbot etc.',
         other: 'Méthode Scrum / Agile',
-        picture: '../media/dameJeanne.jpg'
+        picture: './media/dameJeanne.jpg'
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : Prestashop 1.7.6.3 / PHP 7.2 / Symfony 3.4 / Twig / Javascript.',
         features: '',
         other: 'Méthode Scrum / Agile',
-        picture: '../media/quotationModule.jpg'
+        picture: './media/quotationModule.jpg'
     },
     {
         id: 4,
@@ -45,7 +45,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : PHP 7.2 / Symfony 4.4.3 / Doctrine 2 / Twig / HTML 5 / CSS-SCSS / Bootstrap 4 / Javascript / MySQL',
         features: 'Développement de fonctionnalités : identification, rôles utilisateurs, importation de fichier, carte interactive, etc.',
         other: 'Méthode Scrum / Agile',
-        picture: '../media/ADC.jpg'
+        picture: './media/ADC.jpg'
     },
     {
         id: 5,
@@ -57,6 +57,6 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : PHP / HTML 5 / CSS / Bootstrap 4 / MySQL',
         features: '',
         other: 'Méthode Scrum / Agile',
-        picture: '../media/toilettageSeduction.jpg'
+        picture: './media/toilettageSeduction.jpg'
     },
 ];
