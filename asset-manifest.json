@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.515d0ae6.chunk.css",
+    "main.js": "/portfolio/static/js/main.35dfd3e5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.35dfd3e5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8371d26d.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8371d26d.js.map",
+    "static/js/2.17029e3b.chunk.js": "/portfolio/static/js/2.17029e3b.chunk.js",
+    "static/js/2.17029e3b.chunk.js.map": "/portfolio/static/js/2.17029e3b.chunk.js.map",
+    "static/js/3.54393dcf.chunk.js": "/portfolio/static/js/3.54393dcf.chunk.js",
+    "static/js/3.54393dcf.chunk.js.map": "/portfolio/static/js/3.54393dcf.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.515d0ae6.chunk.css.map": "/portfolio/static/css/main.515d0ae6.chunk.css.map",
+    "static/js/2.17029e3b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.17029e3b.chunk.js.LICENSE.txt",
+    "static/media/CV_Toua_VA_developpeur_web.6fb1aaa3.pdf": "/portfolio/static/media/CV_Toua_VA_developpeur_web.6fb1aaa3.pdf",
+    "static/media/styles.scss": "/portfolio/static/media/home_picture.0577d883.jpg",
+    "static/media/profil.f81832ee.jpg": "/portfolio/static/media/profil.f81832ee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8371d26d.js",
+    "static/js/2.17029e3b.chunk.js",
+    "static/css/main.515d0ae6.chunk.css",
+    "static/js/main.35dfd3e5.chunk.js"
+  ]
+}
