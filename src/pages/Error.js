@@ -8,7 +8,7 @@ const Error = () => {
             <div className="errorContent">
                 <div className="errorText">
                     <h3>Désolé cette page n'existe pas !</h3>
-                    <NavLink exact to="/">
+                    <NavLink exact to="/portfolio/">
                         <FaHome/>
                         <span> Acceuil</span>
                     </NavLink>

@@ -7,14 +7,14 @@ import {GiOpenBook} from 'react-icons/gi';
 import {MdWork} from 'react-icons/md'
 import {FaLinkedin} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
-import profile from '../media/profil.jpg'
+import profilePicture from '../media/photo_cv.png';
 
 const Navigation = () => {
     return (
         <div className="sidebar">
             <div className="identity">
                 <div className="identityContent">
-                    <img src={profile} alt="profile-pic"/>
+                    <img src={profilePicture} alt="profile-pic"/>
                     <h3>Toua VA</h3>
                 </div>
             </div>

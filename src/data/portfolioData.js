@@ -9,7 +9,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : React / Javascript / SCSS.',
         features: '',
         other: '',
-        picture: './media/project1.JPG'
+        picture: './media/portfolio.png'
     },
     {
         id: 2,
