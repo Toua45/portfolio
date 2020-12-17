@@ -23,7 +23,7 @@ const Contact = () => {
                         </li>
                         <li>
                             <FaEnvelope/>
-                            monmail@test.fr
+                            toua.va45@gmail.com
                         </li>
                     </ul>
                 </div>
