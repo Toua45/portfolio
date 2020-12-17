@@ -4,7 +4,7 @@ export const portfolioData = [
         name: 'Portfolio',
         languages: ['react', 'javascript', 'css'],
         languagesIcons: ['fab fa-react', 'fab fa-js', 'fab fa-css3-alt'],
-        source: 'https://github.com/Toua45',
+        source: 'https://github.com/Toua45/portfolio',
         info: 'Réalisation de mon portfolio.',
         technology: 'Les technologies utilisées sont : React / Javascript / SCSS.',
         features: '',
@@ -37,7 +37,7 @@ export const portfolioData = [
     },
     {
         id: 4,
-        name: 'Ambassadeur de créateurs',
+        name: 'Ambassadeurs de créateurs',
         languages: ['php', 'javascript', 'css'],
         languagesIcons: ['fab fa-php', 'fab fa-js', 'fab fa-css3-alt'],
         source: 'https://github.com/Toua45/orleans-0919-php-ambassadeurs-de-createurs',
