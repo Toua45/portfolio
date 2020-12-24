@@ -12,7 +12,7 @@ function App() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/portfolio/" exact component={Home}/>
+                <Route path="/portfolio" exact component={Home}/>
                 <Route path="/portfolio/skills" component={Skills}/>
                 <Route path="/portfolio/experiences" component={Experiences}/>
                 <Route path="/portfolio/projects" component={Portfolio}/>

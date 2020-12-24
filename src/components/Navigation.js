@@ -22,31 +22,31 @@ const Navigation = () => {
             <div className="navigation">
                 <ul>
                     <li>
-                        <NavLink exact to="/portfolio/">
+                        <NavLink exact to="/portfolio" activeClassName="nav-active">
                             <FaHome/>
                             <span>Accueil</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/portfolio/skills">
+                        <NavLink exact to="/portfolio/skills" activeClassName="nav-active">
                             <GiOpenBook/>
                             <span>Compétences</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/portfolio/experiences">
+                        <NavLink exact to="/portfolio/experiences" activeClassName="nav-active">
                             <MdWork/>
                             <span>Expériences</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/portfolio/projects">
+                        <NavLink exact to="/portfolio/projects" activeClassName="nav-active">
                             <FaImages/>
                             <span>Projets</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/portfolio/contact">
+                        <NavLink exact to="/portfolio/contact" activeClassName="nav-active">
                             <MdPermContactCalendar/>
                             <span>Contact</span>
                         </NavLink>
