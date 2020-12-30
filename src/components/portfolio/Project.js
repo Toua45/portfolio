@@ -13,7 +13,16 @@ class Project extends Component {
     };
 
     render() {
-        let {name, languagesIcons, source, info, technology, features, other, picture} = this.props.item;
+        let {name, languagesIcons, source, info, technology, features, other, link, picture} = this.props.item;
+
+        let buttonLink;
+        if (link !== '') {
+            buttonLink = <div className="link">
+                <a href={link} rel="noopener noreferrer" className="button linkShow" target="_blank">
+                    Aperçu
+                </a>
+            </div>;
+        }
 
         return (
             <div className="project">
@@ -46,6 +55,7 @@ class Project extends Component {
                                 <p className="text">{technology}</p>
                                 <p className="text">{features}</p>
                                 <p className="text">{other}</p>
+                                {buttonLink}
                                 <div className="button return" onClick={this.handleInfo}>Retour</div>
                             </div>
                         </div>

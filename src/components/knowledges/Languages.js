@@ -28,7 +28,7 @@ class Languages extends Component {
                 <ProgressBar
                     languages={languages}
                     classname="languageDisplay"
-                    title="languages"
+                    title="langages"
                 />
 
                 <ProgressBar

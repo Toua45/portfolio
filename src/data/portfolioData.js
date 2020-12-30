@@ -9,6 +9,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : React / Javascript / SCSS.',
         features: '',
         other: '',
+        link: 'https://toua45.github.io/portfolio',
         picture: './media/portfolio.png'
     },
     {
@@ -21,6 +22,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : PHP 7.2 / Symfony 4.4.3 / Doctrine 2 / Twig / HTML 5 / CSS-SCSS / Bootstrap 4 / Uikit / Javascript / MySQL.',
         features: 'Développement de fonctionnalités : identification, téléchargement de fichier format pdf, carte interactive, chatbot etc.',
         other: 'Méthode Scrum / Agile',
+        link: '',
         picture: './media/dameJeanne.jpg'
     },
     {
@@ -33,6 +35,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : Prestashop 1.7.6.3 / PHP 7.2 / Symfony 3.4 / Twig / Javascript.',
         features: '',
         other: 'Méthode Scrum / Agile',
+        link: 'https://www.linkedin.com/posts/toua-va_prestashop-symfony-prestashop-activity-6693866906480332800-6vvr',
         picture: './media/quotationModule.jpg'
     },
     {
@@ -45,6 +48,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : PHP 7.2 / Symfony 4.4.3 / Doctrine 2 / Twig / HTML 5 / CSS-SCSS / Bootstrap 4 / Javascript / MySQL',
         features: 'Développement de fonctionnalités : identification, rôles utilisateurs, importation de fichier, carte interactive, etc.',
         other: 'Méthode Scrum / Agile',
+        link: 'http://www.ambassadeursdecreateurs.com/',
         picture: './media/ADC.jpg'
     },
     {
@@ -57,6 +61,7 @@ export const portfolioData = [
         technology: 'Les technologies utilisées sont : PHP / HTML 5 / CSS / Bootstrap 4 / MySQL',
         features: '',
         other: 'Méthode Scrum / Agile',
+        link: '',
         picture: './media/toilettageSeduction.jpg'
     },
 ];

@@ -29,7 +29,7 @@ const Experiences = () => {
                             <p><FaAngleRight/>Accompagner mon réseau d’agences (agences du 45 et du
                                 18) dans la mise en place de plan d’action</p>
                             <p><FaAngleRight/>Développer les partenariats avec les acteurs de l’emploi</p>
-                            <p><FaAngleRight/>Créer des évènements de recrutement spécifiques</p>
+                            <p><FaAngleRight/>Créer des événements de recrutement spécifiques</p>
                             <p><FaAngleRight/>Assurer le déploiement des outils au sein des agences
                                 (tableau de pilotage)</p>
                             <br/>
